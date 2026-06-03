@@ -15,7 +15,7 @@ def format_currency(x:float) ->str:
 
 def revenue_cagr(start:float,end:float,years: int) ->float:
     if start <=0 or end <=0:
-        raise ValueErro("start and end reveune must be positive")
+        raise ValueError("start and end reveune must be positive")
     if years <=0:
         raise ValueError("years should not be 0 or negative ")
     return (end/start)**(1/years)-1
