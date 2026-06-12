@@ -1,0 +1,14 @@
+numpy
+pandas
+scipy
+matplotlib
+yfinance
+typer
+
+[app]
+streamlit
+
+[dev]
+pytest
+jupyter
+ipykernel

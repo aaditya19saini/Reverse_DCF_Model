@@ -1,0 +1,2 @@
+[console_scripts]
+reversedcf = reversedcf.cli:app
